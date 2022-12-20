@@ -1,0 +1,144 @@
+.work{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 100px 0px;
+
+}
+.workcontent{
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.workheading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.workheading p{
+    font-size: 30px;
+    color: #17FFB9;
+    font-weight: 500;
+}
+hr{
+    width: 30%;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+.worktab{
+    display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 500px;
+  height: 400px;
+  margin: 100px auto 0;
+  word-break: break-all;
+}
+
+.bloc-tabs {
+    display: flex;
+    border-bottom: 0.7px solid #92D1FF;
+  }
+.tabs {
+  
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  .tabs:hover{
+    outline: none;
+    border: none;
+  }
+
+  .active-tabs{
+    color: #17FFB9;
+    background: linear-gradient(180deg, rgba(17, 66, 102, 0) 0%, #114266 100%);
+    border-radius: 0;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 3px;
+    background: #17FFB9;
+  }
+  
+  
+  
+  
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #92D1FF;
+  }
+  .content h2 {
+    font-weight: 600;
+  }
+  .content h5{
+    font-weight: 300;
+    padding-bottom: 10px;
+  }
+  .content p {
+    font-weight: 300;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+  .bloc-tabs button{
+    border: none;
+  }
+
+
+
+
+
+  
+@media screen and (max-width:1160px){
+    .worktab{
+        width: auto;
+        margin-top: 30px;
+    }
+    .workheading p{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:500px){
+   .workheading p{
+    font-size: 24px;
+   }
+}
+
+@media screen and (max-width:380px){
+   .workheading p {
+    font-size: 22px;
+   }
+}

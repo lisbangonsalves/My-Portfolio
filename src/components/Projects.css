@@ -1,0 +1,123 @@
+.projects{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 100px 0px;
+}
+.projectscontent{
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projectsheading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.projectsheading p{
+    font-size: 30px;
+    color: #17FFB9;
+    font-weight: 500;
+}
+
+.projectswidget{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.project-img{
+    width: 50%;
+}
+.project-desc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.project-img img{
+    width: 100%;
+}
+.project-title p{
+    color: #17FFB9;
+    font-size: 22px;
+    font-weight: 500;
+}
+.project-tags li{
+    float: left;
+    margin-left: 25px;
+    list-style: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+}
+.project-tags{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.project-details{
+    padding: 10px 20px;
+    background-color: #110A5F;
+    margin-left: 50px;
+    box-shadow: 10px 8px 4px rgba(0, 0, 0, 0.25);
+}
+.project-details p{
+    color: #92D1FF;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    background-color: #110A5F;
+}
+
+.project-links {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.project-links svg{
+    width: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+@media screen and (max-width:1160px){
+    .projectswidget{
+        flex-direction: column;
+    }
+    .project-desc{
+        width: 100%;
+    }
+    .project-img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    .projectsheading p{
+        font-size: 24px;
+    }
+    .projectsheading hr{
+        width: 10%;
+    }
+    .projectswidget{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .project-details{
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width:380px){
+  .project-tags li{
+    font-size: 10px;
+  }
+}

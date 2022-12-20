@@ -1,0 +1,5 @@
+make name typing effect
+change the context
+navbar on click hover effect
+new resume 
+medium artical

@@ -4,7 +4,7 @@ import aboutimg from '../assets/aboutimg.png'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
         <div className="aboutcontent">
           <div className="abouttext">
             <div className="aboutheading">
@@ -12,8 +12,16 @@ const About = () => {
               <hr/>
             </div>
             <div className="aboutdescription">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, tenetur quasi! Aliquid, eligendi? Corporis aliquam quod quibusdam ex, aperiam exercitationem laborum doloremque dolorem cumque, tempore ipsa, qui autem fugiat! Cumque veniam mollitia voluptatum vero reprehenderit quis fuga, ipsam magni esse adipisci autem nulla eligendi quia non quae aut saepe est!
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident ducimus, consectetur a aperiam magni, suscipit exercitationem natus reiciendis alias harum architecto ab velit consequatur eligendi deleniti asperiores qui sequi cumque nesciunt odio et doloribus? Cumque iure hic necessitatibus soluta excepturi dolores voluptatem. Ipsum, quam? Reiciendis deleniti quas corrupti sapiente assumenda?
+              <p>
+              Hello! My name is <b>Lisban</b> and I enjoy creating things that live on the internet. I am an experienced software engineer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success. 
+              </p>
+              <br />
+              <p>
+              Well-versed in technology and writing code to create systems that are reliable and user-friendly. Skilled leader who has the proven ability to motivate, educate and manage a team of professionals to build software programs and effectively track changes. Confident communicator, strategic thinker, and innovative creator to develop software that is customized to meet a company’s organizational needs, highlight its core competencies, and further its success.
+              </p>
+              <br />
+              <p>
+              Fast-forward to today, and I’ve had the privilege of working at a Ted talk organization and at Entrepreneur Cell. My main focus these days is building accessible, inclusive products and digital experiences for all
               </p>
             </div>
             <div className="aboutlist">

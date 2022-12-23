@@ -1,0 +1,90 @@
+.contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactcontent{
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.contactheader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactheader p{
+    margin: 0px 20px;
+    font-size: 25px;
+    color: #17FFB9;
+    font-weight: 500;
+}
+.contactheader hr{
+    width: 40%;
+}
+.contact-desc{
+    width: 50%;
+    margin: 50px 0px;
+}
+.contact-desc p{
+    color: #92D1FF;
+    text-align: center;
+    font-size: 13px;
+}
+.contact-button{
+    margin-bottom: 50px;
+}
+.social-media-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-buttons svg{
+    width: 30px;
+    margin: 0px 20px;
+}
+.social-media-buttons svg:hover{
+    fill: #17FFB9;
+}
+.footer{
+    width: 100%;
+    background-color: #04021F;
+    color: #92D1FF;
+    padding: 10px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width:1160px){
+    .contactheader hr{
+        width: 30%;
+    }
+}
+@media screen and (max-width:500px){
+    .contactheader p{
+        font-size: 20px;
+    }
+    .contactheader hr{
+        width: 20%;
+    }
+    .contact-desc{
+        width: 100%;
+    }
+    .contact-desc p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:380px){
+
+}

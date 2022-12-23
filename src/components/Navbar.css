@@ -27,6 +27,7 @@
 }
 .nav-item a:hover{
     color: #17FFB9;
+    cursor: pointer;
 }
 
 .header .navbar img {

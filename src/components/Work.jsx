@@ -9,7 +9,7 @@ const Work = () => {
     setToggleState(index);
   };
   return (
-    <div className="work">
+    <div className="work" id="work">
       <div className="workcontent">
         <div className="workheading">
           <p>Where I’ve Worked</p>
@@ -21,19 +21,19 @@ const Work = () => {
               className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
               onClick={() => toggleTab(1)}
             >
-              Tab 1
+              TedxSFIT
             </button>
             <button
               className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
               onClick={() => toggleTab(2)}
             >
-              Tab 2
+              Ecell SFIT
             </button>
             <button
               className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
               onClick={() => toggleTab(3)}
             >
-              Tab 3
+              Team Tejas
             </button>
           </div>
 
@@ -43,12 +43,12 @@ const Work = () => {
                 toggleState === 1 ? "content  active-content" : "content"
               }
             >
-              <h2>Content 1</h2>
-              <h5>2020-2021</h5>
+              <h2>Web & Graphics Designer</h2>
+              <h5>October 2021</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati praesentium incidunt quia aspernatur quasi quidem
-                facilis quo nihil vel voluptatum?
+                I was the part of Web UI Design & Development team for officail
+                tedxsfit website and social media graphics Design team for all
+                the tedxsfit social media accounts
               </p>
             </div>
 
@@ -57,7 +57,7 @@ const Work = () => {
                 toggleState === 2 ? "content  active-content" : "content"
               }
             >
-              <h2>Content 2</h2>
+              <h2>Web Developer & Graphics Designer</h2>
               <h5>2020-2021</h5>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -70,7 +70,7 @@ const Work = () => {
                 toggleState === 3 ? "content  active-content" : "content"
               }
             >
-              <h2>Content 3</h2>
+              <h2>Front-End Flutter Developer</h2>
               <h5>2020-2021</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos

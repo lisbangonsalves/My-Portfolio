@@ -56,12 +56,19 @@
     width: 70%;
 
 }
+.aboutdescription b{
+    color: #17FFB9;
+}
 
-hr{
+.aboutheading hr{
     margin-left: 10px;
     width: 50%;
 }
 
+.aboutheading{
+    animation-name: moveright;
+    animation-duration: 1s;
+}
 
 
 

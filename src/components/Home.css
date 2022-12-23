@@ -41,7 +41,62 @@
     font-weight: 600;
     
 }
-.homeprofession p {
+.homename{
+    animation-name: moveright;
+    animation-duration: 1s;
+}
+.home-img{
+    animation-name: moveleft;
+    animation-duration: 1s;
+}
+.mediumbutton{
+    animation-name: moveup;
+    animation-duration: 0.6s;
+}
+.hi-sentence{
+    animation-name: moveleft;
+    animation-duration: 0.7s;
+}
+.homedescription{
+    animation-name: moveleft;
+    animation-duration: 0.7s;
+}
+@keyframes moveleft {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+    
+}
+
+@keyframes moveup {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+    
+}
+
+@keyframes moveright {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+    
+}
+.homeprofession {
     font-size: 70px;
     color: #92D1FF;
     font-weight: 500;
@@ -56,10 +111,26 @@
 
 .home-img img{
     width: 400px;
-    transform: rotate(10.37deg);
 }
 .mediumbutton{
     margin-top: 20px;
+}
+.mediumbutton a:hover{
+     color: #17FFB9;
+    border: #17FFB9 1px dashed;
+}
+
+.mediumbutton a{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 40%;
+    font-size: 15px;
+    text-decoration: none;
+    color: #92D1FF;
+    border: solid #92D1FF 1px;
+    border-radius: 0.7rem;
 }
 
 button{
@@ -77,7 +148,7 @@ button:hover{
     border: #17FFB9 1px dashed;
     /* fill: #17FFB9; */
 }
-button svg:hover{
+.mediumbutton svg:hover{
     fill: #17FFB9;
 }
 svg{
@@ -91,21 +162,33 @@ svg{
         flex-direction: column;
         margin-top: 50px;
     }
+    .homeprofession{
+        font-size: 50px;
+    }
    
     .home-img img{
         width: 300px;
        margin-top: 30px;
+    }
+    .mediumbutton a{
+        width: 50%;
     }
 }
 @media screen and (max-width:500px){
     .homename p{
         font-size: 50px;
     }
-    .homeprofession p{
+    .homeprofession {
         font-size: 30px;
     }
     .homedescription p{
         font-size: 15px;
+    }
+    .mediumbutton{
+        width: 90%;
+    }
+    .mediumbutton a{
+        width: 100%;
     }
 }
 

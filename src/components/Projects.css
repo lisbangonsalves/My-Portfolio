@@ -23,6 +23,10 @@
     color: #17FFB9;
     font-weight: 500;
 }
+.projectsheading hr{
+    margin-left: 10px;
+    width: 50%;
+}
 
 .projectswidget{
     width: 85%;
@@ -83,6 +87,9 @@
 .project-links svg{
     width: 20px;
     margin-left: 20px;
+}
+.project-links svg:hover{
+    fill: #17FFB9;
 }
 
 

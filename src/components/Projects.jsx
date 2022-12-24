@@ -68,14 +68,14 @@ const Projects = () => {
           </div>
           <div className="project-desc">
             <div className="project-title">
-              <p>Music Lyrics App</p>
+              <p>QueueManagement</p>
             </div>
             <div className="project-tags">
               <ul>
                 <li>Flutter</li>
-                <li>Bloc Pattern</li>
+                <li>NodeJS</li>
                 <li>Dart</li>
-                <li>MusixMatch API</li>
+                <li>MongoDB</li>
               </ul>
             </div>
             <div className="project-details">
@@ -103,14 +103,14 @@ const Projects = () => {
           </div>
           <div className="project-desc">
             <div className="project-title">
-              <p>Music Lyrics App</p>
+              <p>Work Saga</p>
             </div>
             <div className="project-tags">
               <ul>
                 <li>Flutter</li>
-                <li>Bloc Pattern</li>
+                <li>NodeJS</li>
                 <li>Dart</li>
-                <li>MusixMatch API</li>
+                <li>MongoDB</li>
               </ul>
             </div>
             <div className="project-details">

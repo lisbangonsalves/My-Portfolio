@@ -6,8 +6,5 @@ new resume
 
 
 PROJECTS TO INCLUDE 
-    queue management
-    rachitnijai.com 
-    happilyever after
-    work saga
+
 

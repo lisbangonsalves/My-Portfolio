@@ -104,11 +104,12 @@
     font-weight: 300;
     padding-bottom: 10px;
   }
-  .content p {
+  .content ul {
     font-weight: 300;
     font-size: 15px;
     width: 100%;
     height: 100%;
+    list-style: square;
   }
   .active-content {
     display: block;

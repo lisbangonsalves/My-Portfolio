@@ -13,7 +13,7 @@ const About = () => {
             </div>
             <div className="aboutdescription">
               <p>
-              Hello! My name is <b>Lisban</b> and I enjoy creating things that live on the internet. I am an experienced software engineer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success. 
+              Hello! My name is <b>Lisban</b> and I enjoy creating things that live on the internet. &#127760; I am an experienced software engineer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success. 
               </p>
               <br />
               <p>

@@ -178,6 +178,9 @@ svg{
     .homename p{
         font-size: 50px;
     }
+    .homecontent{
+        margin-top: 50px;
+    }
     .homeprofession {
         font-size: 30px;
     }
